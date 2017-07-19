@@ -1,7 +1,7 @@
 pipeline {
-  agent { "any" }
+  agent any
   stages {
-    stage "print"{
+    stage ("print") {
       steps {
         println "hello"
       }
